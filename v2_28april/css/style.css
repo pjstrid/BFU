@@ -1,0 +1,17 @@
+body {
+    background-color: #3c1e09;
+    width: 100vw;
+    height: 50%;
+}
+
+.title {
+    color: bisque;
+}
+
+section {
+background-color: blue;
+}
+
+.content {
+    background-color: chartreuse;
+}

@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(171, 169, 169);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    border-style: outset;
+    border-color: rgb(130, 129, 129);
+    border-width: 5px;
+
+    padding: 10px;
+
+    width: 50vw;
+}
+
+button {
+background-color: burlywood;
+color: rgb(22, 22, 22);
+border-radius: 3px;
+}
+
+.image {
+    width: 130px;
+    height: 180px;
+}
+
