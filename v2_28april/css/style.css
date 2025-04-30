@@ -1,17 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #3c1e09;
-    width: 100vw;
-    height: 50%;
+    width: 100vw; /* Body ska ta upp hela sidans bredd och höjd */
+    height: 100vh;
 }
 
-.title {
-    color: bisque;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
 }
 
-section {
-background-color: blue;
-}
-
-.content {
-    background-color: chartreuse;
-}
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  /* Red Box */
+  .box.red {
+    background-color: red;
+    border: 10px solid darkred;
+  }
+  
+  /* Yellow Box */
+  .box.yellow {
+    background-color: yellow;
+    border: 10px solid goldenrod;
+  }
+  
+  /* Green Box */
+  .box.green {
+    background-color: green;
+    border: 10px solid darkgreen;
+  }
