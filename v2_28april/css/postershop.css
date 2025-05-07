@@ -12,7 +12,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    position: relative;
     width: 1000px;
     height: 500px;
     background-color: rgb(137, 227, 117);
@@ -30,9 +29,9 @@ body {
 
 .nav-icon {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 30px;
+    top: 30px;
+    left: 30px;
+    width: 40px;
     height: 30px;
 }
 
