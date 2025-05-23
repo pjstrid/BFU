@@ -1,4 +1,4 @@
-let str = "Supercalifragilisticexpialidocious";
+/* let str = "Supercalifragilisticexpialidocious";
 console.log(str);
 console.log("Finns det ett 'n'? = " + str.includes("n")); // includes ger true/false i detta fallet false
 console.log("Finns det ett 'x'? = " + str.includes("x")); // includes ger true/false i detta fallet true
@@ -6,7 +6,7 @@ console.log("På vilken plats ligger första 'p:et'? = " + str.indexOf("p")); //
 let fiveFirst = str.slice(0,5); // plockar ut från plats 0 till 5, alltså 0-4. inte till och med 5
 console.log(fiveFirst);
 let sevenLast = str.slice(str.length -7); // plockar ut de sju sista. alltså oavsett längd på sträng och minus 7 
-console.log(sevenLast);
+console.log(sevenLast); */
 
 
 /* let names = ["Pelle","Olle","Kalle","Bertil"];
