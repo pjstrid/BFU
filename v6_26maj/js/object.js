@@ -2,6 +2,11 @@
 1. Skapa objekt för varje förolämpning
 */
 
+    function randomInsult() {
+        let random = Math.floor(Math.random() * listOfInsults.length)
+                return listOfInsults[random];
+}
+
 const buttonElem = document.querySelector("#generate-an-insult")
 const outputElem = document.querySelector("#message")
 
@@ -48,18 +53,22 @@ const listOfInsults = [];
         play:"Romeo and Juliet",
     }
 
+    listOfInsults.push(insultOne);
+    listOfInsults.push(insultTwo);
+    listOfInsults.push(insultThree);
+    listOfInsults.push(insultFour);
+    listOfInsults.push(insultFive);
+    listOfInsults.push(insultSix);
+    listOfInsults.push(insultSeven);
+    listOfInsults.push(insultEight);
+    listOfInsults.push(insultNine);
+    listOfInsults.push(insultTen);
 
-
-
-
-
-    function randomInsult() {
-        let random = Math.floor(Math.random() * listOfInsults.length)
-                return listOfInsults[random];
-}
+    console.log(listOfInsults);
 
 
 buttonElem.addEventListener("click", function() {
     let insult = randomInsult();
-    outputElem.textContent = "The insult of the day is: " + insult.insult + "From the play: " + insult.play
+    
+    outputElem.textContent = "The insult of the day is: " + insult.insult + " From the play: " + insult.play
 });
